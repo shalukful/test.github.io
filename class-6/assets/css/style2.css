@@ -1,0 +1,85 @@
+.mainmenu li a:hover{
+    color:#06d6a0;
+}
+.boxed-btn,input[type="submit"],input[type="button"]{
+    background-color: #06d6a0;
+    transition: 0.4s;
+}
+.boxed-btn:hover,input[type="submit"]:hover,input[type="button"]:hover{
+    background-color: #06a078;
+    color: #f9f9f9;
+}
+
+
+.servise-box-table:hover{
+    background: #05bdfe;
+    background: -webkit-linear-gradient(#05bdfe 0%, #4482ec 100%);
+    background: -o-linear-gradient(#05bdfe 0%, #4482ec 100%);
+    background: linear-gradient(#05bdfe 0%, #4482ec 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05bdfe', endColorstr='#4482ec',GradientType=0 );
+
+}
+
+
+
+
+
+.hero-area{
+    background-color: #3493f5;
+    background:url(../img/hero-bg.png);
+    -webkit-background-size: cover;
+    background-size:cover ;
+    color:#fff;
+}
+
+.hero-area h1{
+    color:#fff;
+    font-size: 45px;
+    line-height: 1.3;
+    margin-top: 40px;
+    
+}
+.hero-form-area p{
+    padding: 5px 0px;
+}
+
+
+
+.agency-area h3,.services-2 h3{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.agency-area p,.services-2 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.agency-header .boxed-btn{
+    margin-top: 25px;
+}
+.service-2-title{
+    padding-bottom: 80px;
+}
+.servise-box-table{
+    display: block;
+    height: 250px;
+    width: 100%;
+    background-color: #fbfbfb;
+    display: table;
+    text-align: center;
+    padding: 30px;
+    color:#373737;
+   
+}
+.servise-box-table i{
+    font-size: 40px;
+    padding: 15px 0px;
+    color:#4383ed;
+}
+.service-box-tableCell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.servise-box-table:hover h3,.servise-box-table:hover i.zmdi{
+    color:#fff;
+}
